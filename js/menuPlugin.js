@@ -68,10 +68,10 @@
             $('.seccion .submenus-container').hide();
             $('.seccion').on({
                 mouseenter: function () {
-                    $(this).find('.submenus-container').show();
+                    $(this).find('.submenus-container').slideDown(300);
                 },
                 mouseleave: function () {
-                    $(this).find('.submenus-container').hide();
+                    $(this).find('.submenus-container').slideUp(300);
                 },
             });
 
